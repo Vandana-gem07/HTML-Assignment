@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <center>
+    <h1>Student Registeration form</h1>
+    <form id="form1">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+
+
+        <label for="gender">Gender:</label> <br>
+         <input type="radio" name="gender" value="Male">
+         <label for="male">Male</label>
+         <input type="radio" id="css" name="gender" value="Female">
+         <label for="female">Female</label><br><br>
+
+<label for="address">Address</label>
+<textarea name="comment" form="usrform" placeholder="Enter Text Here..."></textarea><br><br>
+
+<label for="city">City:</label>
+<select id="city" name="city">
+    <option value="">Select City</option>
+    <option value="Agra">Agra</option>
+    <option value="Bareily">Bareily</option>
+    <option value="Chandigarh">Chandigarh</option>
+    <option value="Dehradun">Dehradun</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Faridabad">Faridabad</option>
+    <option value="Meerut">Meerut</option>
+</select>
+<br><br>
+
+<label for="hobbies">Hobbies</label> <br>
+
+<input type="checkbox" name="Dance" value="Dance">
+<label for="Dancing"> I love Dancing</label><br>
+<input type="checkbox" name="Video Editing" value="Video Editing">
+<label for="Video Editing"> I love Video Editing</label><br>
+<input type="checkbox" id="Reading" name="Reading" value="Reading">
+<label for="Reading"> I love Reading</label><br><br>
+ 
+
+<input type="reset" value="Reset"> <br><br>
+<input type="submit" value="Submit">
+
+      </form>
+
+      <br><br>
+
+      <table>
+        <tr>
+          <th>S.No</th>
+          <th>Phone No.</th>
+          <th>Gender</th>
+          <th>DOB</th>
+          <th>Interests</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>9899763456</td>
+          <td>Male</td>
+          <td>8-06-2001</td>
+          <td>Gaming</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>9849423656</td>
+            <td>Female</td>
+            <td>16-07-2001</td>
+            <td>Art and Craft</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>9654012834</td>
+            <td>Male</td>
+            <td>16-08-2000</td>
+            <td>Cricket</td>
+        </tr>
+
+      </table>
+    </center>
+</body>
+</html>
